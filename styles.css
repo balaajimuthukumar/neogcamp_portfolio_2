@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(243, 241, 238);
+}
+.container-center{
+    display: block;
+    margin:auto;
+    max-width: 340px;
+}
+.navigation{
+    background-color: rgb(233, 208, 173);
+    display:flex;
+}
+.nav-heading{
+    margin:auto;
+}
+.nav-list-container{
+    display:flex;
+}
+.nav-list{
+    display:inline;
+    margin: auto;
+    padding:1rem;
+}
+.nav-link{
+    text-decoration: none;
+    color:black;
+}
+.link-active{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+.balaaji-img{
+    display: block;
+    margin:auto;
+}
+.balaaji-intro{
+    text-align: center;
+}
+.sec-tech{
+    display: flex;
+    padding: 2px;
+    background-color:antiquewhite;
+}
+.sec-tech-content{
+    margin: 0;
+}
+.sec-projects{
+    display:flex;
+    padding: 2px;
+    background-color:antiquewhite;    
+}
+.sec-proj-content{
+    margin: 0;
+}
+.link-primary{
+    text-decoration: none;
+    background-color: brown;
+    color: yellow;
+    border-radius: 0.5rem;
+    padding: 2px;
+}
+.sec-blogs{
+    display: flex;
+    padding: 2px;
+    background-color:antiquewhite;
+}
+.sec-proj-content{
+    margin: 0;
+}
+.footer{
+    background-color: rgb(236, 211, 177);
+    display:flex;
+    flex-flow: column;
+}
+.footer-content{
+    text-align: center;
+}
+p{
+    margin: 6px 0px;
+    color: brown;
+    font-weight: bold;
+    font-size: small;
+}
+.link-secondary{
+    text-decoration: none;
+    color: darkgoldenrod;
+    border-radius: 0.5rem;
+    padding: 2px;
+}
+.project-list{
+    margin:15px;
+    font-weight: bold;
+}
+small{
+    color:gray;
+}
+.project-para{
+    margin: 6px 0px;
+    color: brown;
+    font-weight: bold;
+    font-size: small;
+}
+.container-center-blog{
+    display: block;
+    margin:auto;
+    max-width: 540px;
+}
